@@ -1,0 +1,17 @@
+{
+  "name": "BI Prime Bypass",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Bypass BI Prime",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  }
+}
