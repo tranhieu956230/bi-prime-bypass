@@ -1,0 +1,12 @@
+[
+  {
+    "id" : 1,
+    "priority": 1,
+    "action" : { "type" : "block" },
+    "condition" : {
+      "urlFilter" : "tinypass",
+      "domains" : ["businessinsider.com"],
+      "resourceTypes" : ["script"]
+    }
+  }
+]
