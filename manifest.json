@@ -12,5 +12,13 @@
       "enabled": true,
       "path": "rule1.json"
     }]
-  }
+  },
+  "content_scripts": [
+    {
+      "js": ["./content.js"],
+      "matches": [
+        "https://finance.yahoo.com/*"
+      ]
+    }
+  ]
 }
